@@ -2,6 +2,8 @@
 This is a machine learning project implemented in Jupyter Notebook. The goal of this project is to predict  whether a given adult makes more than 
 $50,000 a year or not using various features such as the age, workclass of the individual, occupation, level of education etc. 
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pandas?style=for-the-badge) ![PyPI - Status](https://img.shields.io/pypi/status/pandas?style=for-the-badge) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://choosealicense.com/licenses/mit/)
+
 ## Getting Started
 
 To get started with this project, you will need to clone this repository to your local machine. You will also need to have Jupyter Notebook installed on your machine.
