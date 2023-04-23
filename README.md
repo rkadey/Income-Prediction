@@ -48,7 +48,9 @@ In this step, we will prepare the data for modeling by handling missing values, 
 In this step, we will create new features from the existing data to improve the predictive power of the model. Here, we added age groups to our data.
 
 - ### Model Selection
-In this step, we will select the appropriate machine learning algorithm(s) to build the predictive model. 
+In this step, we will select the appropriate machine learning algorithm(s) to build the predictive model. I chose Logistic Regression for our baseline model afer which I added other four models namely; KNN, SVC, Decision Tree and GaussianNB. Upon training and scoring on evaluation data, our baseline model which is the Logistic Regression came out with the best F1 Score of 0.693804. Note that due to class imbalance in our dataset, we cannot rely on accuracy for our sole metric.
+
+In other to see how other models performed, I tried some emnsemble models like Random Forest, ExtraTrees, AdaBoost, GradientBoosting and finally the XGB classifier.
 
 ## Results
 
