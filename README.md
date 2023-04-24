@@ -41,7 +41,8 @@ In this step, we explored the dataset to understand its characteristics, identif
 
 From our checks above, our data consists of 32,561 rows and 15 columns. The data has no missing values but with 24 diplicated records. The mean age of participantrs is 39 with 73 distinct age values. In workclass column, 1,836 representing 5.6% have unknown values, 1,843 (5.7%) are unknown under occupation columns. 583 representing 1.8% have their native countries unknown.Our target column has two labels denoting binary classification problem.
 
-![image](https://github.com/rkadey/streamlit-ml-app/blob/main/screenshots/Streamlit%20snapshot2.png)
+Pairplot for our data.
+![image](https://github.com/rkadey/income-prediction/blob/main/screenshots/eda.png)
 
 - ### Data Preprocessing
 In this step, we will prepare the data for modeling by handling missing values, encoding categorical variables, and scaling numerical features.As indicated above, our data has no misssing values. The standard scaler was implored to scale our numerical features to a common a scale.
@@ -56,9 +57,10 @@ In other to see how other models performed, I tried some ensemble models like Ra
 
 ## Results
 
-The results of our analysis are as follows:
+After several playing with our models, the result are as follows:
 
-Our model achieved an accuracy of 85% on the test data.
-The most important features for predicting house prices were the size of the house and the number of rooms.
+Our best model is the XGB with hyperparameter tuned. We achieved an F1 score of 0.7241 on our validation data. This is an improvement on the previous scores hence we go with this model. When our model was predicted on our test data ie unseen data, the performance in terms of F1 score was 0.7167.
+
 ## Conclusion
-In this project, we successfully implemented a machine learning model to predict the price of houses in a particular city. Our model achieved an accuracy of 85% on the test data, which is a good result. We also identified the most important features for predicting house prices, which can be useful for future analysis.
+In this project, we successfully implemented a machine learning model to predict whether a given adult makes more than 
+$50,000 a year or not. Our model achieved an F1 score of 71.7% on the test data, which is a good result. We also identified the most important features for predicting income, which can be useful for future analysis.
