@@ -39,7 +39,9 @@ $50,000 a year or not. The following methodological approach was followed in exe
 - ### Exploratory Data Analysis (EDA)
 In this step, we explored the dataset to understand its characteristics, identify patterns, and gain insights. We visualized the data by plotting a pairplot to understand the distribution of the variables. Our variables were not correlated that much but it revealed that over 80+ years of individuals are working 60 hours per week. Summary tol was implored to check for missing data, shape of data, deep dive into each variable considering their frequencies and central tendencies.
 
-From our checks above, our data consists of 32,561 rows and 15 columns. The data has no missing values but with 24 diplicated records. The mean age of participantrs is 39 with 73 distinct age values. In workclass column, 1,836 representing 5.6% have unknown values, 1,843 (5.7%) are unknown under occupation columns. 583 representing 1.8% have their native countries unknown.Our target column has two labels denoting binary classification problem
+From our checks above, our data consists of 32,561 rows and 15 columns. The data has no missing values but with 24 diplicated records. The mean age of participantrs is 39 with 73 distinct age values. In workclass column, 1,836 representing 5.6% have unknown values, 1,843 (5.7%) are unknown under occupation columns. 583 representing 1.8% have their native countries unknown.Our target column has two labels denoting binary classification problem.
+
+![image](https://github.com/rkadey/streamlit-ml-app/blob/main/screenshots/Streamlit%20snapshot2.png)
 
 - ### Data Preprocessing
 In this step, we will prepare the data for modeling by handling missing values, encoding categorical variables, and scaling numerical features.As indicated above, our data has no misssing values. The standard scaler was implored to scale our numerical features to a common a scale.
