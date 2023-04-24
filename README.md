@@ -64,3 +64,5 @@ Our best model is the XGB with hyperparameter tuned. We achieved an F1 score of 
 ## Conclusion
 In this project, we successfully implemented a machine learning model to predict whether a given adult makes more than 
 $50,000 a year or not. Our model achieved an F1 score of 71.7% on the test data, which is a good result. We also identified the most important features for predicting income, which can be useful for future analysis.
+
+Our model and data were saved as components for the development of a web app,streamlit app, for real time prediction.
