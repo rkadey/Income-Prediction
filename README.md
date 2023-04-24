@@ -50,7 +50,7 @@ In this step, we will create new features from the existing data to improve the 
 - ### Model Selection
 In this step, we will select the appropriate machine learning algorithm(s) to build the predictive model. I chose Logistic Regression for our baseline model afer which I added other four models namely; KNN, SVC, Decision Tree and GaussianNB. Upon training and scoring on evaluation data, our baseline model which is the Logistic Regression came out with the best F1 Score of 0.693804. Note that due to class imbalance in our dataset, we cannot rely on accuracy for our sole metric.
 
-In other to see how other models performed, I tried some emnsemble models like Random Forest, ExtraTrees, AdaBoost, GradientBoosting and finally the XGB classifier.
+In other to see how other models performed, I tried some ensemble models like Random Forest, ExtraTrees, AdaBoost, GradientBoosting and finally the XGB classifier. After training, only two models GradientBoosting and XGB recorded an F1 score greater than our baseline model. The results are 0.705 and 0.712 respectively. Our decision here is to take the best model interms of F1 score and tune parameters to see if we can improve the score.
 
 ## Results
 
